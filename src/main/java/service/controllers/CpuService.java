@@ -32,6 +32,6 @@ public class CpuService {
         cpuRepository.save(cpu);
     }
     public void deleteCpu(Integer id){
-        cpuRepository.deleteById(String.valueOf(id));
+        cpuRepository.deleteById(id);
     }
 }

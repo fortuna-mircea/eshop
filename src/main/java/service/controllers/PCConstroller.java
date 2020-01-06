@@ -23,8 +23,8 @@ public class PCConstroller {
     }
 
     @DeleteMapping("/deleteCpu")
-    public void delete(String id) {
-        cpuService.deleteCpu(Integer.valueOf(id));
+    public void delete(Integer id) {
+        cpuService.deleteCpu(id);
     }
 
     @PatchMapping("/updateCpu")

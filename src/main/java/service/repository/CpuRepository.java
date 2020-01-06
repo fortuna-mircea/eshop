@@ -5,4 +5,5 @@ import service.models.Cpu;
 
 public interface CpuRepository extends CrudRepository<Cpu,String> {
 
+    void deleteById(int id);
 }
